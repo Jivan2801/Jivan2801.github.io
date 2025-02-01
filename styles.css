@@ -174,3 +174,53 @@ form button {
     height: 150px;
   }
 }
+
+.cert-button {
+  background: #6c757d;
+  /* Grey color */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.cert-button:hover {
+  background: #5a6268;
+  /* Darker grey for hover effect */
+}
+
+
+/* Styling for contact links */
+.contact-link {
+  color: #ffffff;
+  /* White color */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+/* Phone hover effect - changes to green */
+.phone-link:hover {
+  color: #28a745;
+  /* Green color */
+  transform: scale(1.1);
+}
+
+/* Email hover effect - changes to blue */
+.email-link:hover {
+  color: #007bff;
+  /* Blue color */
+  transform: scale(1.1);
+}
+
+/* General hover effect for all links */
+.contact-link:hover {
+  color: #6c757d;
+  /* Yellow color */
+  transform: scale(1.1);
+  text-decoration: underline;
+}
