@@ -3,109 +3,247 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jivan Singh</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        margin: 0;
-      }
-
-      h1 {
-        color: #333;
-      }
-
-      .container {
-        text-align: center;
-        padding: 20px;
-        border: 2px solid #ccc;
-        background-color: #fff;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-
-      .icons {
-        margin-top: 20px;
-      }
-
-      .icons a {
-        text-decoration: none;
-        margin: 0 15px;
-        display: inline-block;
-      }
-
-      .icons img {
-        width: 50px;
-        height: 50px;
-        transition: transform 0.2s;
-      }
-
-      .icons img:hover {
-        transform: scale(1.2);
-      }
-
-      .footer__social__icon img {
-        width: 60px;
-        height: 60px;
-        transition: transform 0.3s, filter 0.3s;
-        border-radius: 8px;
-      }
-
-      .footer__social__icon img:hover {
-        transform: scale(1.15);
-        filter: none;
-      }
-    </style>
+    <title>Jivan Singh | MSCS Student</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div id="particles-js"></div>
+
     <div class="container">
-      <h1>Hello, My Name is Jivan Singh</h1>
-      <p>Connect with me:</p>
-      <div class="icons">
-        <a
-          href="https://www.linkedin.com/in/jivan-singh-057836233/"
-          target="_blank"
-        >
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-            alt="LinkedIn"
-          />
-        </a>
-        <a href="mailto:jsingh38@hawk.iit.edu">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
-            alt="Email"
-          />
-        </a>
-        <a href="tel:+13127927758">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/724/724664.png"
-            alt="Phone"
-          />
-        </a>
-        <a href="https://github.com/Jivan2801" target="_blank">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-            alt="GitHub"
-          />
-        </a>
-        <a
-          class="footer__social__icon"
-          href="/pdfs/JivanSingh_Resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/337/337946.png"
-            alt="PDF"
-          />
-        </a>
-      </div>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content">
+          <img src="Jivan-profile.png" alt="Jivan Singh" class="profile-img" />
+          <h1 class="gradient-text">Jivan Singh</h1>
+          <div class="glass-card">
+            <p>
+              MSCS Student @ Illinois Institute of Technology<br />MSCS @ IIT
+              Chicago | Software Developer | Web Developer @ReactJS/NextJS/PHP |
+              Competitive Programming | Seeking Summer 2025 Internship
+            </p>
+            <div class="skill-bubbles">
+              <span class="skill-bubble">Python</span>
+              <span class="skill-bubble">AWS</span>
+              <span class="skill-bubble">Blockchain</span>
+              <span class="skill-bubble">Machine Learning</span>
+              <span class="skill-bubble">PHP</span>
+              <span class="skill-bubble">Solidity</span>
+              <span class="skill-bubble">ReactJS</span>
+              <span class="skill-bubble">SQL</span>
+            </div>
+            <div class="resume-download">
+              <a href="Jivan_Singh_Resume.pdf" download class="patent-badge">
+                <i class="fas fa-download"></i> Download Resume
+              </a>
+            </div>
+          </div>
+          <div class="glass-card contact-info">
+            <p>
+              📞 +1 (312) 792-7758<br />
+              📧 jivanusingh@gmail.com<br />
+              🔗 <a href="https://linkedin.com/in/Jivan">LinkedIn</a> |
+              <a href="https://Jivan.com">Portfolio</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section class="experience">
+        <h2 class="gradient-text">Professional Experience</h2>
+        <div class="experience-grid">
+          <div class="glass-card">
+            <h3>Software Developer</h3>
+            <p><strong>Crayon Infotech Pvt Ltd., India</strong></p>
+            <p>
+              <em
+                >Tech Stack: PHP | CodeIgniter | Laravel | Python | Git |
+                SQL/NOSQL | PostgreSQL | RESTful API | Flask API | Data
+                Structures</em
+              >
+            </p>
+            <ul>
+              <li>
+                Designed scalable software solutions, leveraging techniques to
+                enhance performance by 30% and cut downtime by 15%.
+              </li>
+              <li>
+                Developed robust APIs for seamless third-party integration,
+                boosting functionality and enhancing the user experience.
+              </li>
+              <li>
+                Collaborated with cross-functional teams to deploy 5+
+                applications, refining the codebase to ensure stability and
+                bugs.
+              </li>
+            </ul>
+          </div>
+          <div class="glass-card">
+            <h3>Blockchain Research Intern</h3>
+            <p><strong>Lab Systems Pvt. Ltd., India</strong></p>
+            <p>
+              <em
+                >Tech Stack: Blockchain Architecture | Blockchain Node | Hashing
+                | Solidity | Smart Contracts | Ganache | IPFS</em
+              >
+            </p>
+            <ul>
+              <li>
+                Gained expertise in cryptocurrency forensics using OSINT skills,
+                training a team to develop a comprehensive solution.
+              </li>
+              <li>
+                Managed a Bitcoin Node to support research initiatives, actively
+                contributing to blockchain technology advancements.
+              </li>
+              <li>
+                Trained a team of 12 professionals in blockchain technology,
+                enhancing leadership capabilities and technical expertise.
+              </li>
+            </ul>
+          </div>
+          <div class="glass-card">
+            <h3>Cloud Intern</h3>
+            <p><strong>Amazon Web Services (SLRTCE), India</strong></p>
+            <p>
+              <em
+                >Tech Stack: Cloud Computing Services | EC2 | S3 | RDS | CICD
+                Pipeline | Lambda</em
+              >
+            </p>
+            <ul>
+              <li>
+                Completed training in AWS Cloud Services, focusing on secure
+                cloud deployment with active filtering and monitoring.
+              </li>
+              <li>
+                Delivered a capstone project demonstrating advanced cloud
+                solutions and principles with scalable architecture on AWS.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="projects">
+        <h2 class="gradient-text">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="glass-card">
+            <h3>
+              Medilog: A Blockchain-Based Pharmaceutical Supply Chain System
+            </h3>
+            <p><em>Tech Stack: Ethereum, Solidity, MERN stack</em></p>
+            <ul>
+              <li>
+                Designed and deployed an extensive end-to-end pharmaceutical
+                supply chain solution leveraging blockchain technology.
+              </li>
+              <li>
+                Enabled tamper-proof tracking of medical drugs, ensuring trust
+                and presented solution to the Indian Medical Association.
+              </li>
+            </ul>
+          </div>
+          <div class="glass-card">
+            <h3>Visual Room Interfaces</h3>
+            <p>
+              <em
+                >Tech Stack: Stable Diffusion 3.5 Large Turbo Model, Python,
+                Influxdb, Sensors</em
+              >
+            </p>
+            <ul>
+              <li>
+                Developed a system using Stable Diffusion to create real-time
+                visualization of environmental conditions using sensor data.
+              </li>
+              <li>
+                Streamlined process of interpreting raw data for improving
+                decision-making process, achieving 90% success in user study.
+              </li>
+            </ul>
+          </div>
+          <div class="glass-card">
+            <h3>Graphical Password Representation using Blockchain</h3>
+            <p>
+              <em>Tech Stack: Ethereum Blockchain, IPFS, Hardhat, React.js</em>
+            </p>
+            <ul>
+              <li>
+                Constructed a blockchain solution that replaces traditional
+                passwords by using smart contracts and IPFS integration.
+              </li>
+              <li>
+                The solution enhances user authentication by decentralizing data
+                storage, providing greater security and improved privacy.
+              </li>
+            </ul>
+          </div>
+          <div class="glass-card">
+            <h3>Pulse Detection through webcam</h3>
+            <p><em>Tech Stack: Python, OpenCV, Tkinter, NumPy, SciPy</em></p>
+            <ul>
+              <li>
+                Implemented a Python application with a Tkinter interface,
+                utilizing Laplace Pyramid and K-Nearest Neighbour.
+              </li>
+              <li>
+                Achieved high accuracy in predictions by implementing algorithms
+                like Fast Fourier Transform, attaining an R² of 0.9.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Achievements Section -->
+      <section class="achievements">
+        <div class="glass-card">
+          <h2 class="gradient-text">Achievements & Recognition</h2>
+          <ul>
+            <li>Winner of Internal Smart India Hackathon 2020.</li>
+            <li>
+              Published a Research paper on “Construction Estimation Project” in
+              International Journal for Scientific Research and Development
+              (IJSRD) (Impact Factor Volume:8.1).
+            </li>
+            <li>
+              Published a Research paper on “Pulse Detection Through Webcam” in
+              International Journal of Research and Analytical Reviews (IJRAR).
+            </li>
+            <li>
+              Granted Patent: D Fin Blockchain-basierites Medizinlogistiksystem
+              – German Patent File No - 20 2023 102 823.3, Date – 19 September
+              2023.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact">
+        <div class="glass-card">
+          <h2 class="gradient-text">Get in Touch</h2>
+          <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
