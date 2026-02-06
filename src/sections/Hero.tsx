@@ -66,11 +66,15 @@ const Hero = () => {
               <span className="text-gradient">Jivan Singh</span>
             </h1>
 
-            <p className="reveal opacity-0 text-lg sm:text-xl text-[#4A4E69]/80 max-w-2xl mx-auto lg:mx-0 mb-8" style={{ animationDelay: '0.3s' }}>
-              A Full-Stack Software Engineer & Graduate Student @ Illinos Tech, Chicago.
+            <p
+              className="reveal opacity-0 text-lg sm:text-xl text-[#4A4E69]/80 max-w-2xl mx-auto lg:mx-0 mb-8"
+              style={{ animationDelay: '0.3s' }}
+            >
+              Full-Stack Software Engineer & Graduate Student @ Illinois Tech, Chicago
               <br />
-              Building scalable APIs, cloud systems, and data-driven applications.
+              Building scalable APIs, cloud systems, and data-driven applications
             </p>
+
 
             <div className="reveal opacity-0 flex flex-wrap gap-4 justify-center lg:justify-start mb-10" style={{ animationDelay: '0.4s' }}>
               <Button 
