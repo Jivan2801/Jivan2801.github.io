@@ -57,7 +57,7 @@ const Hero = () => {
             <div className="reveal opacity-0" style={{ animationDelay: '0.1s' }}>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-6">
                 <Code2 className="w-4 h-4 text-[#4A4E69]" />
-                <span className="text-sm text-[#4A4E69]">Full-Stack Engineer | Cloud & API Development</span>
+                <span className="text-sm text-[#4A4E69]">Full-Stack Engineer | Software Developer</span>
               </div>
             </div>
 
