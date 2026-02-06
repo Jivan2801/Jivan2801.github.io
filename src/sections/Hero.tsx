@@ -72,9 +72,9 @@ const Hero = () => {
             >
               Full-Stack Software Engineer
               <br />
-              Currently Graduate Student @ Illinois Tech, Chicago
+              Currently Graduate Student @ Illinois Tech, Chicago.
               <br />
-              Building scalable APIs, cloud systems, and data-driven applications
+              Building scalable APIs, cloud systems, and data-driven applications.
             </p>
 
 
