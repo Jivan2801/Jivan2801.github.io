@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 23% 95%;
+    --foreground: 244 20% 18%;
+    --card: 30 23% 95%;
+    --card-foreground: 244 20% 18%;
+    --popover: 30 23% 95%;
+    --popover-foreground: 244 20% 18%;
+    --primary: 244 20% 35%;
+    --primary-foreground: 30 23% 95%;
+    --secondary: 20 18% 72%;
+    --secondary-foreground: 244 20% 18%;
+    --muted: 30 15% 90%;
+    --muted-foreground: 244 15% 45%;
+    --accent: 280 10% 60%;
+    --accent-foreground: 244 20% 18%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 30 23% 95%;
+    --border: 20 18% 80%;
+    --input: 20 18% 80%;
+    --ring: 244 20% 35%;
+    --radius: 0.625rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#4A4E69] via-[#9A8C98] to-[#C9ADA7];
+  }
+  
+  .glass {
+    @apply bg-[#F2E9E4]/80 backdrop-blur-xl border border-[#C9ADA7]/30 shadow-sm;
+  }
+  
+  .glass-dark {
+    @apply bg-[#22223B]/5 backdrop-blur-xl border border-[#C9ADA7]/30;
+  }
+  
+  .glow {
+    box-shadow: 0 0 40px -10px hsl(244 20% 35% / 0.3);
+  }
+  
+  .glow-sm {
+    box-shadow: 0 0 20px -5px hsl(244 20% 35% / 0.25);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(30 23% 95%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(20 18% 72%);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(244 20% 35%);
+}
+
+/* Animation keyframes */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.6s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out forwards;
+}
