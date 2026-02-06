@@ -70,7 +70,9 @@ const Hero = () => {
               className="reveal opacity-0 text-lg sm:text-xl text-[#4A4E69]/80 max-w-2xl mx-auto lg:mx-0 mb-8"
               style={{ animationDelay: '0.3s' }}
             >
-              Full-Stack Software Engineer & Graduate Student @ Illinois Tech, Chicago
+              Full-Stack Software Engineer
+              <br />
+              Currently Graduate Student @ Illinois Tech, Chicago
               <br />
               Building scalable APIs, cloud systems, and data-driven applications
             </p>
