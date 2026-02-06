@@ -67,7 +67,8 @@ const Hero = () => {
             </h1>
 
             <p className="reveal opacity-0 text-lg sm:text-xl text-[#4A4E69]/80 max-w-2xl mx-auto lg:mx-0 mb-8" style={{ animationDelay: '0.3s' }}>
-              MSCS @ Illinois Tech, Chicago. Passionate software developer transforming ideas into impactful solutions — from scalable applications and seamless APIs to cutting-edge blockchain technology.
+              Full-Stack Software Engineer & Graduate Student @ Illinois Institute of Technology, Chicago
+              Building scalable APIs, cloud systems, and data-driven applications.
             </p>
 
             <div className="reveal opacity-0 flex flex-wrap gap-4 justify-center lg:justify-start mb-10" style={{ animationDelay: '0.4s' }}>
