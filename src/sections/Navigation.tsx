@@ -11,7 +11,7 @@ const navLinks = [
 ];
 
 const Navigation = () => {
-  const resumeHref = './Jivan-Resume.pdf';
+  const resumeHref = '/Jivan-Resume.pdf';
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
