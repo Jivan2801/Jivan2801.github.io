@@ -13,19 +13,46 @@ import {
 } from 'lucide-react';
 
 const skills = [
-  { name: 'FastAPI', icon: Server },
-  { name: 'TypeScript', icon: Terminal },
-  { name: 'ChromaDB', icon: Database },
+  // Core Languages
   { name: 'Python', icon: Code2 },
+  { name: 'JavaScript', icon: Code2 },
+  { name: 'PHP', icon: Code2 },
+
+  // Frontend
   { name: 'ReactJS', icon: Layout },
-  { name: 'Solidity', icon: Blocks },
-  { name: 'AWS Cloud', icon: Cloud },
-  { name: 'Blockchain', icon: Layers },
-  { name: 'Flask API', icon: FileCode },
-  { name: 'MongoDB', icon: Database },
+  { name: 'NextJS', icon: Layout },
+  { name: 'HTML', icon: FileCode },
+  { name: 'CSS', icon: FileCode },
+  { name: 'SASS', icon: FileCode },
+  { name: 'Tailwind CSS', icon: Layout },
+
+  // Backend & APIs
+  { name: 'FastAPI', icon: Server },
+  { name: 'Flask', icon: Server },
+  { name: 'REST APIs', icon: Server },
+  { name: 'JWT Authentication', icon: Shield },
+  { name: 'Laravel', icon: Server },
+  { name: 'CodeIgniter', icon: Server },
+
+  // Databases
   { name: 'PostgreSQL', icon: Database },
+  { name: 'MongoDB', icon: Database },
+  { name: 'ChromaDB', icon: Database },
+
+  // AI / LLM
+  { name: 'LLM Systems', icon: Brain },
+  { name: 'RAG Systems', icon: Brain },
+
+  // Cloud & DevOps
+  { name: 'AWS', icon: Cloud },
+  { name: 'Docker', icon: Cloud },
+  { name: 'GCP', icon: Cloud },
+
+  // Tools
+  { name: 'Postman', icon: Terminal },
   { name: 'Git', icon: Cpu },
 ];
+
 
 const About = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
