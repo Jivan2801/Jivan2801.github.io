@@ -49,20 +49,23 @@ const experiences = [
       'Ensured applications were scalable and highly available in production environments'
     ],
   },
-  {
+    {
     type: 'work',
     title: 'Software Developer Intern',
     company: 'Lab Systems (I) Pvt. Ltd.',
     location: 'Mumbai, Maharashtra, India',
-    period: 'July 2022 - May 2023',
-    description: 'Automated cryptocurrency transaction analysis and processed blockchain data for forensic research.',
+    period: 'July 2022 – May 2023',
+    description:
+      'Tech Stack: Python, Blockchain Architecture, Solidity, Smart Contracts, IPFS, Blockchain Nodes, Hashing',
     achievements: [
-      'Processed and indexed 20+ TB of blockchain data for forensic research',
-      'Set up and maintained cryptocurrency nodes for secure investigations',
-      'Mentored a 12-member team in blockchain investigation expertise',
-      'Streamlined OSINT workflows reducing manual effort'
+      'Automated cryptocurrency transaction analysis using Python to support forensic investigations',
+      'Processed and indexed 20+ TB of blockchain data to enable faster and more reliable research',
+      'Set up and maintained multiple cryptocurrency nodes for secure, on-premises investigations',
+      'Streamlined OSINT workflows, significantly reducing manual analysis effort',
+      'Mentored and collaborated with a 12-member team, strengthening blockchain investigation capabilities'
     ],
   },
+
   {
     type: 'work',
     title: 'Cloud Intern',
