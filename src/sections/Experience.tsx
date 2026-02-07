@@ -26,11 +26,12 @@ const experiences = [
     description:
       'Tech Stack: Python, Prometheus, PromQL, Grafana, Alertmanager, YAML, Git',
     achievements: [
-      'Worked on the “Synthetic Monitoring Platform” project under mentorship, designing and implementing a production-style monitoring and observability system',
-      'Designed a synthetic monitoring solution to track server uptime, latency, and packet loss across services',
-      'Built a custom Python exporter to expose network and availability metrics in Prometheus format',
-      'Created Grafana dashboards with real-time visualizations for latency trends and overall system health',
+      'Worked on the “Synthetic Monitoring Platform,” building a production-style monitoring system',
+      'Designed a synthetic monitoring solution to track uptime, latency, and packet loss',
+      'Built a custom Python exporter to expose network and availability metrics for Prometheus',
+      'Created Grafana dashboards to visualize latency trends and system health in real time',
       'Implemented automated alerting workflows using Prometheus rules and Alertmanager'
+
     ],
   },
   {
