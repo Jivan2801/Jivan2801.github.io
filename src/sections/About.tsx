@@ -11,7 +11,8 @@ import {
   // Blocks,
   FileCode,
   Shield,
-  Brain
+  Brain,
+  BarChart3
 } from 'lucide-react';
 
 const skills = [
@@ -54,6 +55,8 @@ const skills = [
   // Tools
   { name: 'Postman', icon: Terminal },
   { name: 'Git', icon: Cpu },
+  { name: 'Grafana', icon: BarChart3 },
+
 ];
 
 
