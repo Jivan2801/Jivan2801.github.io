@@ -74,7 +74,7 @@ const Hero = () => {
               <br />
               Currently Graduate Student @ Illinois Tech, Chicago.
               <br />
-              Building scalable APIs, cloud systems, and data-driven applications.
+              Building scalable APIs, cloud systems, and data-driven applications using modern technologies.
             </p>
 
 
