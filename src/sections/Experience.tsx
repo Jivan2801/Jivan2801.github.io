@@ -38,13 +38,15 @@ const experiences = [
     title: 'Software Developer',
     company: 'Crayon Infotech Pvt. Ltd.',
     location: 'Mumbai, Maharashtra, India',
-    period: 'August 2023 - July 2024',
-    description: 'Delivered 5+ production-ready applications supporting over 2,000 active users with 99.9% uptime through performance tuning.',
+    period: 'August 2023 – July 2024',
+    description:
+      'Tech Stack: PHP, Laravel, CodeIgniter, Python, Flask, REST APIs, PostgreSQL, SQL/NoSQL, Git',
     achievements: [
-      'Built and deployed REST and Flask APIs, cutting onboarding time from 2 weeks to 3 days',
-      'Reduced bugs by 20% through cross-functional team collaboration',
-      'Optimized SQL queries, boosting data retrieval speed by 25%',
-      'Ensured scalable and highly available applications in production'
+      'Delivered 5+ production-ready applications supporting over 2,000 active users with 99.9% uptime',
+      'Built and deployed REST and Flask APIs, reducing client onboarding time from 2 weeks to 3 days',
+      'Collaborated with cross-functional teams to improve code quality and reduce bugs by 20%',
+      'Optimized SQL queries and backend workflows, increasing data retrieval performance by 25%',
+      'Ensured applications were scalable and highly available in production environments'
     ],
   },
   {
