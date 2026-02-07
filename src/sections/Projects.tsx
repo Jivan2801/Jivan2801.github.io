@@ -167,7 +167,7 @@ const Projects = () => {
             variant="outline" 
             size="lg"
             className="border-[#C9ADA7] hover:bg-[#C9ADA7]/20 text-[#4A4E69]"
-            onClick={() => window.open('https://github.com', '_blank')}
+            onClick={() => window.open('https://github.com/Jivan2801', '_blank')}
           >
             <Github className="w-4 h-4 mr-2" />
             View More on GitHub
