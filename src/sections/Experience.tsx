@@ -21,14 +21,16 @@ const experiences = [
     type: 'work',
     title: 'Build Student Consultant',
     company: 'The Build Fellowship by Open Avenues',
-    location: 'Chicago, Illinois',
-    period: 'July 2025 - September 2025',
-    description: 'Worked on "Synthetic Monitoring Platform" project under mentorship, designing and implementing a production-style monitoring system.',
+    location: 'Chicago, IL',
+    period: 'July 2025 – September 2025',
+    description:
+      'Tech Stack: Python, Prometheus, PromQL, Grafana, Alertmanager, YAML, Git',
     achievements: [
-      'Designed synthetic monitoring solution for server uptime, latency, and packet loss',
-      'Built custom Python exporter for Prometheus time-series monitoring',
-      'Created Grafana dashboards for real-time visualization',
-      'Implemented alerting workflows with Prometheus and Alertmanager'
+      'Worked on the “Synthetic Monitoring Platform” project under mentorship, designing and implementing a production-style monitoring and observability system',
+      'Designed a synthetic monitoring solution to track server uptime, latency, and packet loss across services',
+      'Built a custom Python exporter to expose network and availability metrics in Prometheus format',
+      'Created Grafana dashboards with real-time visualizations for latency trends and overall system health',
+      'Implemented automated alerting workflows using Prometheus rules and Alertmanager'
     ],
   },
   {
