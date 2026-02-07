@@ -98,7 +98,7 @@ const Hero = () => {
 
             <div className="reveal opacity-0 flex gap-4 justify-center lg:justify-start" style={{ animationDelay: '0.5s' }}>
               <a 
-                href="https://github.com" 
+                href="github.com/Jivan2801" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full glass hover:bg-[#C9ADA7]/20 transition-colors"
