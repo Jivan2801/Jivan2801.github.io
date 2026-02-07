@@ -82,7 +82,7 @@ const About = () => {
             {/* Stats */}
             <div className="grid grid-cols-2 gap-6 pt-8">
               <div className="text-center p-4 rounded-2xl glass">
-                <div className="text-3xl sm:text-4xl font-bold text-gradient mb-1">5+</div>
+                <div className="text-3xl sm:text-4xl font-bold text-gradient mb-1">2+</div>
                 <div className="text-sm text-[#4A4E69]/70">Years Experience</div>
               </div>
               <div className="text-center p-4 rounded-2xl glass">
