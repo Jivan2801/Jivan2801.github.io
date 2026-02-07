@@ -65,18 +65,19 @@ const experiences = [
       'Mentored and collaborated with a 12-member team, strengthening blockchain investigation capabilities'
     ],
   },
-
   {
     type: 'work',
     title: 'Cloud Intern',
     company: 'Shree L. R. Tiwari College of Engineering',
     location: 'Mumbai, Maharashtra, India',
-    period: 'June 2022 - July 2022',
-    description: 'Designed and implemented a three-tier cloud architecture on AWS.',
+    period: 'June 2022 – July 2022',
+    description:
+      'Tech Stack: AWS (EC2, RDS, S3), Cloud Architecture, Deployment & Configuration, Cloud Security',
     achievements: [
-      'Deployed SPA on AWS using EC2, RDS, and S3',
-      'Gained experience in cloud security and performance optimization',
-      'Configured and troubleshot AWS resources'
+      'Designed and implemented a three-tier cloud architecture on AWS',
+      'Deployed a single-page application using EC2, RDS, and S3 with focus on scalability and reliability',
+      'Configured, troubleshot, and optimized AWS resources to ensure smooth deployment',
+      'Applied cloud security best practices and performance optimization techniques'
     ],
   },
   {
