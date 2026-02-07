@@ -80,19 +80,22 @@ const experiences = [
       'Applied cloud security best practices and performance optimization techniques'
     ],
   },
-  {
+    {
     type: 'work',
     title: 'Python Intern',
     company: 'Jeet Techno Solutions LLP',
     location: 'Mumbai, Maharashtra, India',
-    period: 'May 2019 - June 2019',
-    description: 'Built and deployed Python desktop applications with Tkinter.',
+    period: 'May 2019 – June 2019',
+    description:
+      'Tech Stack: Python, Tkinter, GUI Development, Modular Programming, Embedded Systems',
     achievements: [
-      'Applied modular programming and GUI design principles',
-      'Collaborated on embedded software projects with real-time sensor feedback',
-      'Gained experience across full SDLC phases'
+      'Built and deployed Python desktop applications using Tkinter with modular design',
+      'Applied GUI design principles to create user-friendly desktop interfaces',
+      'Collaborated on embedded software projects involving real-time sensor feedback',
+      'Gained hands-on experience across planning, development, testing, and deployment phases of the SDLC'
     ],
   },
+
 ];
 
 const education = [
