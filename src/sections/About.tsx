@@ -70,14 +70,17 @@ const About = () => {
           {/* Left - Bio */}
           <div className="reveal opacity-0 space-y-6" style={{ animationDelay: '0.2s' }}>
             <p className="text-lg text-[#4A4E69]/80 leading-relaxed">
-              Hi, I'm Jivan Singh — a passionate software developer and tech enthusiast currently pursuing my Master's in Computer Science at the Illinois Institute of Technology.
+              Hi, I’m Jivan Singh, a software developer currently pursuing my Master’s in Computer Science at the Illinois Institute of Technology in Chicago.
             </p>
+
             <p className="text-lg text-[#4A4E69]/80 leading-relaxed">
-              My journey in tech has been all about transforming ideas into impactful solutions — whether it's building scalable applications, creating seamless APIs, or exploring the cutting edge of blockchain technology.
+              I enjoy building things that actually work in the real world. That includes full-stack applications, cloud-based systems, and clean, reliable APIs that scale well and are easy to maintain.
             </p>
+
             <p className="text-lg text-[#4A4E69]/80 leading-relaxed">
-              From designing a blockchain-powered pharmaceutical supply chain to developing cloud-based architectures and real-time data visualization tools, I thrive at the intersection of innovation and problem-solving.
+              I’ve worked on everything from blockchain-powered supply chain systems to monitoring tools and data-driven platforms used in production. I like breaking down complex problems, collaborating with teams, and turning ideas into practical solutions.
             </p>
+
 
             {/* Stats */}
             <div className="grid grid-cols-2 gap-6 pt-8">
