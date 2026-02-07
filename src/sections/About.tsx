@@ -114,6 +114,11 @@ const About = () => {
               I’ve worked on everything from blockchain-powered supply chain systems to monitoring tools and data-driven platforms used in production. I like breaking down complex problems, collaborating with teams, and turning ideas into practical solutions.
             </p>
 
+            <p className="text-lg text-[#4A4E69]/80 leading-relaxed">
+              I’m always curious about how systems behave at scale and enjoy refining performance, reliability, and user experience as projects grow.
+            </p>
+
+
 
             {/* Stats */}
             <div className="grid grid-cols-2 gap-6 pt-8">
