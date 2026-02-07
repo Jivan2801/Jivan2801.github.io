@@ -27,6 +27,7 @@ const skills = [
   { name: 'Tailwind CSS', icon: Layout },
 
   // Backend & APIs
+  { name: 'Node.js', icon: Server },
   { name: 'FastAPI', icon: Server },
   { name: 'Flask', icon: Server },
   { name: 'REST APIs', icon: Server },
