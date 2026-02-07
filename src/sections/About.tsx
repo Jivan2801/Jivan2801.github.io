@@ -9,7 +9,9 @@ import {
   Layers,
   Cloud,
   Blocks,
-  FileCode
+  FileCode,
+  Shield,
+  Brain
 } from 'lucide-react';
 
 const skills = [
