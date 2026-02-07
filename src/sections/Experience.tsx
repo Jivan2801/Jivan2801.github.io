@@ -8,8 +8,9 @@ const experiences = [
     company: 'PARI Technologies (M) SDN BHD',
     location: 'Chicago, IL',
     period: 'October 2025 - December 2025',
-    description: 'Developed a full-stack AI learning platform using React and FastAPI with a dynamic user interface and asynchronous backend APIs.',
+    description: 'Tech Stack: Python, Git, ReactJS, FastAPI, TypeScript, Selenium, BeautifulSoup, WebDriver, Pandas',
     achievements: [
+      'Developed a full-stack AI learning platform using React and FastAPI with a dynamic user interface and asynchronous backend APIs',
       'Designed an AI-powered chatbot using Google Gemini and a RAG pipeline',
       'Implemented retrieval-augmented generation workflows using ChromaDB and MongoDB',
       'Automated data extraction with Python scripts using Selenium and BeautifulSoup',
