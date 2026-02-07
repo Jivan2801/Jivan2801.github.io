@@ -119,13 +119,6 @@ const education = [
 const certifications = [
   {
     type: 'cert',
-    title: 'Walmart USA - Advanced Software Engineering Job Simulation',
-    company: 'Walmart',
-    period: '2024',
-    description: 'Advanced software engineering job simulation program.',
-  },
-  {
-    type: 'cert',
     title: 'AWS Academy Graduate - AWS Academy Cloud Foundations',
     company: 'AWS Academy',
     period: '2024',
@@ -144,6 +137,13 @@ const certifications = [
     company: 'Microsoft',
     period: '2024',
     description: 'Certification in AI agentic design patterns using AutoGen.',
+  },
+  {
+    type: 'cert',
+    title: 'Walmart USA - Advanced Software Engineering Job Simulation',
+    company: 'Walmart',
+    period: '2024',
+    description: 'Advanced software engineering job simulation program.',
   },
 ];
 
