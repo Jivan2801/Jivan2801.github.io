@@ -8,7 +8,7 @@ const experiences = [
     company: 'PARI Technologies (M) SDN BHD',
     location: 'Remote',
     period: 'October 2025 - December 2025',
-    description: 'Tech Stack: Python, Git, ReactJS, FastAPI, TypeScript, Selenium, BeautifulSoup, WebDriver, Pandas',
+    description: 'Python | Git | ReactJS | FastAPI | TypeScript | Selenium | BeautifulSoup | WebDriver | Pandas',
     achievements: [
       'Built features for a full-stack AI learning platform using React and FastAPI, including an AI-powered chatbot built with Google Gemini and RAG.'
     ],
@@ -20,7 +20,7 @@ const experiences = [
     location: 'Remote',
     period: 'July 2025 – September 2025',
     description:
-      'Tech Stack: Python, Prometheus, PromQL, Grafana, Alertmanager, YAML, Git',
+      'Python | Prometheus | PromQL | Grafana | Alertmanager | YAML | Git',
     achievements: [
       'Developed a synthetic monitoring system with Python, Prometheus, and Grafana to track uptime, latency, and trigger automated alerts.'
 
@@ -33,7 +33,7 @@ const experiences = [
     location: 'Mumbai, Maharashtra, India',
     period: 'August 2023 – July 2024',
     description:
-      'Tech Stack: PHP, Laravel, CodeIgniter, Python, Flask, REST APIs, PostgreSQL, SQL/NoSQL, Git',
+      'PHP | Laravel | CodeIgniter | Python | Flask | REST APIs | PostgreSQL | SQL/NoSQL | Git',
     achievements: [
       'Delivered and scaled multiple production web applications using PHP and Python APIs, supporting 2,000+ users with high availability and improved backend performance.'
     ],
@@ -45,7 +45,7 @@ const experiences = [
     location: 'Mumbai, Maharashtra, India',
     period: 'July 2022 – May 2023',
     description:
-      'Tech Stack: Python, Blockchain Architecture, Solidity, Smart Contracts, IPFS, Blockchain Nodes, Hashing',
+      'Python | Blockchain Architecture | Solidity | Smart Contracts | IPFS | Blockchain Nodes | Hashing',
     achievements: [
       'Automated blockchain transaction analysis and managed large-scale blockchain data and nodes to support secure forensic investigations.'
     ],
@@ -57,7 +57,7 @@ const experiences = [
     location: 'Mumbai, Maharashtra, India',
     period: 'June 2022 – July 2022',
     description:
-      'Tech Stack: AWS (EC2, RDS, S3), Cloud Architecture, Deployment & Configuration, Cloud Security',
+      'AWS (EC2, RDS, S3) | Cloud Architecture | Deployment & Configuration | Cloud Security',
     achievements: [
       'Designed and deployed a scalable three-tier cloud architecture on AWS, hosting a single-page application with secure and optimized infrastructure.'
     ],
@@ -69,7 +69,7 @@ const experiences = [
     location: 'Mumbai, Maharashtra, India',
     period: 'May 2019 – June 2019',
     description:
-      'Tech Stack: Python, Tkinter, GUI Development, Modular Programming, Embedded Systems',
+      'Python | Tkinter | GUI Development | Modular Programming | Embedded Systems',
     achievements: [
       'Built Python desktop applications with Tkinter and contributed to embedded software projects involving real-time sensor integration.'
     ],
