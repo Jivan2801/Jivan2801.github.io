@@ -113,6 +113,7 @@ const certifications = [
     title: 'AI Agents in LangGraph',
     company: 'LangChain',
     period: '2025',
+    link:'https://learn.deeplearning.ai/accomplishments/2724e667-0026-4960-bab7-ae7b4301c9f0?usp=sharing',
     description: 'Certification in building AI agents using LangGraph.',
   },
   {
@@ -120,6 +121,7 @@ const certifications = [
     title: 'AI Agentic Design Patterns with AutoGen',
     company: 'Microsoft',
     period: '2025',
+    link:'https://learn.deeplearning.ai/accomplishments/21c79eff-a410-4575-b0fa-ff4e21906427?usp=sharing',
     description: 'Certification in AI agentic design patterns using AutoGen.',
   },
   {
@@ -127,6 +129,7 @@ const certifications = [
     title: 'Walmart USA - Advanced Software Engineering Job Simulation',
     company: 'Walmart',
     period: '2024',
+    link:'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Walmart%20USA/oX6f9BbCL9kJDJzfg_Walmart%20USA_oNExwwXfftei88z9j_1725665555338_completion_certificate.pdf',
     description: 'Advanced software engineering job simulation program.',
   },
   {
@@ -134,6 +137,7 @@ const certifications = [
     title: 'AWS Academy Graduate - AWS Academy Cloud Foundations',
     company: 'AWS Academy',
     period: '2022',
+    link:'https://www.credly.com/badges/0b232535-099e-49b4-8e78-c26a6f6b1e46/print',
     description: 'Cloud foundations certification from AWS Academy.',
   },
 ];
@@ -261,7 +265,7 @@ const Experience = () => {
         <div className="reveal opacity-0">
           <h3 className="text-xl font-semibold text-center mb-8 text-[#22223B]">Certifications</h3>
           <div className="grid sm:grid-cols-2 gap-6">
-            {certifications.map((cert, index) => (
+            {/* {certifications.map((cert, index) => (
               <div 
                 key={index}
                 className="glass rounded-2xl p-6 hover:border-[#9A8C98]/50 transition-colors"
@@ -276,7 +280,47 @@ const Experience = () => {
                 <p className="text-sm text-[#4A4E69]/70 mb-2">{cert.company}</p>
                 <p className="text-sm text-[#4A4E69]/70">{cert.description}</p>
               </div>
-            ))}
+            ))} */}
+            {certifications.map((cert, index) => (
+            <a
+              key={index}
+              href={cert.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group"
+            >
+              <div className="glass rounded-2xl p-6 border border-transparent
+                              transition-all duration-300
+                              hover:border-[#9A8C98]/50
+                              hover:-translate-y-1
+                              hover:shadow-lg">
+                
+                <div className="flex items-center gap-2 mb-3">
+                  <div className="p-2 rounded-lg bg-[#4A4E69]/10
+                                  transition-colors
+                                  group-hover:bg-[#4A4E69]/20">
+                    <Award className="w-4 h-4 text-[#4A4E69]" />
+                  </div>
+                  <span className="text-sm text-[#4A4E69] font-medium">
+                    {cert.period}
+                  </span>
+                </div>
+
+                <h4 className="text-lg font-semibold mb-1 text-[#22223B]">
+                  {cert.title}
+                </h4>
+
+                <p className="text-sm text-[#4A4E69]/70 mb-2">
+                  {cert.company}
+                </p>
+
+                <p className="text-sm text-[#4A4E69]/70">
+                  {cert.description}
+                </p>
+              </div>
+            </a>
+          ))}
+
           </div>
         </div>
       </div>
