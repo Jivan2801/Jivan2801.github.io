@@ -5,8 +5,8 @@ import { useEffect, useRef, /*useState*/ } from 'react';
 // import { Label } from '@/components/ui/label';
 import { 
   Mail, 
-  MapPin, 
-  Phone, 
+  // MapPin, 
+  // Phone, 
   // Send,
   Github,
   Linkedin,
@@ -14,31 +14,32 @@ import {
   // CheckCircle
 } from 'lucide-react';
 
-const contactInfo = [
-  {
-    icon: Mail,
-    label: 'Email',
-    value: 'jivanusingh@gmail.com',
-    href: 'mailto:jivanusingh@gmail.com',
-  },
-  {
-    icon: Phone,
-    label: 'Phone',
-    value: '+1 (312) 792-7758',
-    href: 'tel:+13127927758',
-  },
-  {
-    icon: MapPin,
-    label: 'Location',
-    value: 'Chicago, Illinois',
-    href: '#',
-  },
-];
+// const contactInfo = [
+//   {
+//     icon: Mail,
+//     label: 'Email',
+//     value: 'jivanusingh@gmail.com',
+//     href: 'mailto:jivanusingh@gmail.com',
+//   },
+//   {
+//     icon: Phone,
+//     label: 'Phone',
+//     value: '+1 (312) 792-7758',
+//     href: 'tel:+13127927758',
+//   },
+//   {
+//     icon: MapPin,
+//     label: 'Location',
+//     value: 'Chicago, Illinois',
+//     href: '#',
+//   },
+// ];
 
 const socialLinks = [
   { icon: Github, href: 'https://github.com/Jivan2801', label: 'GitHub' },
   { icon: Linkedin, href: 'https://www.linkedin.com/in/jivansingh', label: 'LinkedIn' },
   { icon: Twitter, href: 'https://x.com/Jivan2801', label: 'Twitter' },
+  { icon: Mail, href: 'mailto:jivanusingh@gmail.com', label: 'Email'  }
 ];
 
 const Contact = () => {
@@ -113,50 +114,27 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-5 gap-12">
-          {/* Contact Info */}
-          <div className="reveal opacity-0 lg:col-span-2 space-y-8" style={{ animationDelay: '0.3s' }}>
-            <div className="space-y-6">
-              {contactInfo.map((item) => (
+        <div className="flex justify-center">
+          {/* Center: GitHub, LinkedIn, Twitter, Email + Open to Opportunities */}
+          <div className="flex flex-col items-center justify-center space-y-8 text-center">
+            <div className="flex gap-3 justify-center flex-wrap">
+              {socialLinks.map((social) => (
                 <a
-                  key={item.label}
-                  href={item.href}
-                  className="flex items-center gap-4 p-4 rounded-xl glass hover:border-[#9A8C98]/50 transition-colors group"
+                  key={social.label}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 rounded-xl glass hover:bg-[#C9ADA7]/20 hover:border-[#9A8C98]/50 transition-all"
+                  aria-label={social.label}
                 >
-                  <div className="p-3 rounded-lg bg-[#4A4E69]/10 group-hover:bg-[#4A4E69]/20 transition-colors">
-                    <item.icon className="w-5 h-5 text-[#4A4E69]" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-[#4A4E69]/70">{item.label}</p>
-                    <p className="font-medium text-[#22223B]">{item.value}</p>
-                  </div>
+                  <social.icon className="w-5 h-5 text-[#4A4E69]" />
                 </a>
               ))}
             </div>
 
-            {/* Social Links */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-[#22223B]">Follow Me</h3>
-              <div className="flex gap-3">
-                {socialLinks.map((social) => (
-                  <a
-                    key={social.label}
-                    href={social.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 rounded-xl glass hover:bg-[#C9ADA7]/20 hover:border-[#9A8C98]/50 transition-all"
-                    aria-label={social.label}
-                  >
-                    <social.icon className="w-5 h-5 text-[#4A4E69]" />
-                  </a>
-                ))}
-              </div>
-            </div>
-
-            {/* Availability */}
-            <div className="p-6 rounded-xl glass border-[#C9ADA7]/50">
+            <div className="p-6 rounded-xl glass border-[#C9ADA7]/50 w-full max-w-sm text-left mx-auto">
               <div className="flex items-center gap-3 mb-3">
-                <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse" />
+                <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse shrink-0" />
                 <span className="font-medium text-[#22223B]">Open to Opportunities</span>
               </div>
               <p className="text-sm text-[#4A4E69]/70">
@@ -165,6 +143,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
+        </div>
 
           {/* Contact Form */}
           {/* <div className="reveal opacity-0 lg:col-span-3" style={{ animationDelay: '0.4s' }}>
@@ -248,7 +227,6 @@ const Contact = () => {
               )}
             </form>
           </div> */}
-        </div>
       </div>
     </section>
   );
