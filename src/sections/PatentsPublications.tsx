@@ -6,7 +6,7 @@ const patents = [
   {
     title: 'D Ein Blockchain-basiertes Medizinlogistiksystem',
     description: 'A blockchain-based medical logistics system for secure and transparent pharmaceutical supply chain management.',
-    link: '#',
+    link: 'https://register.dpma.de/DPMAregister/pat/register?AKZ=2020231028233&CURSOR=0',
     year: '2023',
   },
 ];
@@ -15,13 +15,13 @@ const publications = [
   {
     title: 'Construction Estimation Project',
     description: 'Research on automated construction cost estimation using machine learning algorithms and data analytics.',
-    link: '#',
+    link: 'https://www.ijsrd.com/articles/IJSRDV8I10203.pdf',
     year: '2023',
   },
   {
     title: 'Pulse Detection Through Webcam',
     description: 'Non-invasive pulse rate detection system using computer vision and signal processing techniques.',
-    link: '#',
+    link: 'https://www.ijrar.org/papers/IJRAR22B1631.pdf',
     year: '2022',
   },
 ];
