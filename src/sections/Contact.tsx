@@ -167,7 +167,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="reveal opacity-0 lg:col-span-3" style={{ animationDelay: '0.4s' }}>
+          {/* <div className="reveal opacity-0 lg:col-span-3" style={{ animationDelay: '0.4s' }}>
             <form onSubmit={handleSubmit} className="glass rounded-2xl p-8">
               {isSubmitted ? (
                 <div className="flex flex-col items-center justify-center py-12 text-center">
@@ -247,7 +247,7 @@ const Contact = () => {
                 </div>
               )}
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
