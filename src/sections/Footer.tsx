@@ -2,7 +2,7 @@ import { Code2, Github, Linkedin, Twitter, Mail, Heart } from 'lucide-react';
 
 const footerLinks = {
   social: [
-    { name: 'GitHub', href: 'https://github.com', icon: Github },
+    { name: 'GitHub', href: 'https://github.com/Jivan2801', icon: Github },
     { name: 'LinkedIn', href: 'https://www.linkedin.com/in/jivansingh', icon: Linkedin },
     { name: 'Twitter', href: 'https://x.com/Jivan2801', icon: Twitter },
     { name: 'Email', href: 'mailto:jivanusingh@gmail.com', icon: Mail },
