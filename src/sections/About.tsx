@@ -111,7 +111,7 @@ const About = () => {
             </p>
 
             <p className="text-lg text-[#4A4E69]/80 leading-relaxed">
-              I’ve worked on everything from blockchain-powered supply chain systems to monitoring tools and data-driven platforms used in production. I like breaking down complex problems, collaborating with teams, and turning ideas into practical solutions.
+              I’ve worked on everything from backend systems to monitoring tools and data-driven platforms used in production. I enjoy breaking down complex problems, collaborating with teams, and turning ideas into practical, scalable solutions.
             </p>
 
             <p className="text-lg text-[#4A4E69]/80 leading-relaxed">
