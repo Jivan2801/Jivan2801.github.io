@@ -36,9 +36,9 @@ const contactInfo = [
 ];
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com', label: 'GitHub' },
+  { icon: Github, href: 'https://github.com/Jivan2801', label: 'GitHub' },
   { icon: Linkedin, href: 'https://www.linkedin.com/in/jivansingh', label: 'LinkedIn' },
-  { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
+  { icon: Twitter, href: 'https://x.com/Jivan2801', label: 'Twitter' },
 ];
 
 const Contact = () => {
