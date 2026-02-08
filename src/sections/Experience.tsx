@@ -110,23 +110,16 @@ const education = [
 const certifications = [
   {
     type: 'cert',
-    title: 'AWS Academy Graduate - AWS Academy Cloud Foundations',
-    company: 'AWS Academy',
-    period: '2024',
-    description: 'Cloud foundations certification from AWS Academy.',
-  },
-  {
-    type: 'cert',
     title: 'AI Agents in LangGraph',
     company: 'LangChain',
-    period: '2024',
+    period: '2025',
     description: 'Certification in building AI agents using LangGraph.',
   },
   {
     type: 'cert',
     title: 'AI Agentic Design Patterns with AutoGen',
     company: 'Microsoft',
-    period: '2024',
+    period: '2025',
     description: 'Certification in AI agentic design patterns using AutoGen.',
   },
   {
@@ -135,6 +128,13 @@ const certifications = [
     company: 'Walmart',
     period: '2024',
     description: 'Advanced software engineering job simulation program.',
+  },
+  {
+    type: 'cert',
+    title: 'AWS Academy Graduate - AWS Academy Cloud Foundations',
+    company: 'AWS Academy',
+    period: '2022',
+    description: 'Cloud foundations certification from AWS Academy.',
   },
 ];
 
