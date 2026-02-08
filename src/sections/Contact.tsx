@@ -1,17 +1,17 @@
 import { useEffect, useRef, useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Label } from '@/components/ui/label';
+// import { Button } from '@/components/ui/button';
+// import { Input } from '@/components/ui/input';
+// import { Textarea } from '@/components/ui/textarea';
+// import { Label } from '@/components/ui/label';
 import { 
   Mail, 
   MapPin, 
   Phone, 
-  Send,
+  // Send,
   Github,
   Linkedin,
   Twitter,
-  CheckCircle
+  // CheckCircle
 } from 'lucide-react';
 
 const contactInfo = [
@@ -43,13 +43,13 @@ const socialLinks = [
 
 const Contact = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
-  const [isSubmitted, setIsSubmitted] = useState(false);
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
-  });
+  // const [isSubmitted, setIsSubmitted] = useState(false);
+  // const [formData, setFormData] = useState({
+  //   name: '',
+  //   email: '',
+  //   subject: '',
+  //   message: '',
+  // });
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -69,22 +69,22 @@ const Contact = () => {
     return () => observer.disconnect();
   }, []);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Simulate form submission
-    setIsSubmitted(true);
-    setTimeout(() => {
-      setIsSubmitted(false);
-      setFormData({ name: '', email: '', subject: '', message: '' });
-    }, 3000);
-  };
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   // Simulate form submission
+  //   setIsSubmitted(true);
+  //   setTimeout(() => {
+  //     setIsSubmitted(false);
+  //     setFormData({ name: '', email: '', subject: '', message: '' });
+  //   }, 3000);
+  // };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData(prev => ({
-      ...prev,
-      [e.target.name]: e.target.value
-    }));
-  };
+  // const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  //   setFormData(prev => ({
+  //     ...prev,
+  //     [e.target.name]: e.target.value
+  //   }));
+  // };
 
   return (
     <section
