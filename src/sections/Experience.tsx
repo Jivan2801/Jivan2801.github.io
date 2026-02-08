@@ -10,11 +10,7 @@ const experiences = [
     period: 'October 2025 - December 2025',
     description: 'Tech Stack: Python, Git, ReactJS, FastAPI, TypeScript, Selenium, BeautifulSoup, WebDriver, Pandas',
     achievements: [
-      'Developed a full-stack AI learning platform using React and FastAPI with a dynamic user interface and asynchronous backend APIs',
-      'Designed an AI-powered chatbot using Google Gemini and a RAG pipeline',
-      'Implemented retrieval-augmented generation workflows using ChromaDB and MongoDB',
-      'Automated data extraction with Python scripts using Selenium and BeautifulSoup',
-      'Processed datasets with 20,000+ columns, improving data accuracy'
+      'Built features for a full-stack AI learning platform using React and FastAPI, including an AI-powered chatbot built with Google Gemini and RAG.'
     ],
   },
   {
