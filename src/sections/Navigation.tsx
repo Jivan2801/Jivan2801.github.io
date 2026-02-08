@@ -20,9 +20,9 @@ const Navigation = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
 
-      // Update active section based on scroll position
-      const sections = navLinks.map(link => link.href.slice(1));
-      for (const section of sections.reverse()) {
+      // Update active section based on scroll position (bottom-to-top order)
+      const sectionIds = navLinks.map(link => link.href.slice(1));
+      for (const section of [...sectionIds].reverse()) {
         const element = document.getElementById(section);
         if (element) {
           const rect = element.getBoundingClientRect();
@@ -33,6 +33,8 @@ const Navigation = () => {
         }
       }
     };
+
+    handleScroll();
 
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
