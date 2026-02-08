@@ -106,7 +106,7 @@ const Footer = () => {
             © {new Date().getFullYear()} - Built by Jivan Singh
           </p>
           <p className="text-sm text-[#4A4E69]/70 flex items-center gap-1">
-            Built with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> and a stubborn love for clean UX.
+            Built with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> using React.js 19
           </p>
         </div>
       </div>
