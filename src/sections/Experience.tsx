@@ -6,7 +6,7 @@ const experiences = [
     type: 'work',
     title: 'Full Stack Development Intern',
     company: 'PARI Technologies (M) SDN BHD',
-    location: 'Chicago, IL',
+    location: 'Remote',
     period: 'October 2025 - December 2025',
     description: 'Tech Stack: Python, Git, ReactJS, FastAPI, TypeScript, Selenium, BeautifulSoup, WebDriver, Pandas',
     achievements: [
@@ -17,16 +17,12 @@ const experiences = [
     type: 'work',
     title: 'Build Student Consultant',
     company: 'The Build Fellowship by Open Avenues',
-    location: 'Chicago, IL',
+    location: 'Remote',
     period: 'July 2025 – September 2025',
     description:
       'Tech Stack: Python, Prometheus, PromQL, Grafana, Alertmanager, YAML, Git',
     achievements: [
-      'Worked on the “Synthetic Monitoring Platform,” building a production-style monitoring system',
-      'Designed a synthetic monitoring solution to track uptime, latency, and packet loss',
-      'Built a custom Python exporter to expose network and availability metrics for Prometheus',
-      'Created Grafana dashboards to visualize latency trends and system health in real time',
-      'Implemented automated alerting workflows using Prometheus rules and Alertmanager'
+      'Developed a synthetic monitoring system with Python, Prometheus, and Grafana to track uptime, latency, and trigger automated alerts.'
 
     ],
   },
@@ -39,11 +35,7 @@ const experiences = [
     description:
       'Tech Stack: PHP, Laravel, CodeIgniter, Python, Flask, REST APIs, PostgreSQL, SQL/NoSQL, Git',
     achievements: [
-      'Delivered 5+ production-ready applications supporting over 2,000 active users with 99.9% uptime',
-      'Built and deployed REST and Flask APIs, reducing client onboarding time from 2 weeks to 3 days',
-      'Collaborated with cross-functional teams to improve code quality and reduce bugs by 20%',
-      'Optimized SQL queries and backend workflows, increasing data retrieval performance by 25%',
-      'Ensured applications were scalable and highly available in production environments'
+      'Delivered and scaled multiple production web applications using PHP and Python APIs, supporting 2,000+ users with high availability and improved backend performance.'
     ],
   },
     {
@@ -55,11 +47,7 @@ const experiences = [
     description:
       'Tech Stack: Python, Blockchain Architecture, Solidity, Smart Contracts, IPFS, Blockchain Nodes, Hashing',
     achievements: [
-      'Automated cryptocurrency transaction analysis using Python to support forensic investigations',
-      'Processed and indexed 20+ TB of blockchain data to enable faster and more reliable research',
-      'Set up and maintained multiple cryptocurrency nodes for secure, on-premises investigations',
-      'Streamlined OSINT workflows, significantly reducing manual analysis effort',
-      'Mentored and collaborated with a 12-member team, strengthening blockchain investigation capabilities'
+      'Automated blockchain transaction analysis and managed large-scale blockchain data and nodes to support secure forensic investigations.'
     ],
   },
   {
@@ -71,10 +59,7 @@ const experiences = [
     description:
       'Tech Stack: AWS (EC2, RDS, S3), Cloud Architecture, Deployment & Configuration, Cloud Security',
     achievements: [
-      'Designed and implemented a three-tier cloud architecture on AWS',
-      'Deployed a single-page application using EC2, RDS, and S3 with focus on scalability and reliability',
-      'Configured, troubleshot, and optimized AWS resources to ensure smooth deployment',
-      'Applied cloud security best practices and performance optimization techniques'
+      'Designed and deployed a scalable three-tier cloud architecture on AWS, hosting a single-page application with secure and optimized infrastructure.'
     ],
   },
     {
@@ -86,10 +71,7 @@ const experiences = [
     description:
       'Tech Stack: Python, Tkinter, GUI Development, Modular Programming, Embedded Systems',
     achievements: [
-      'Built and deployed Python desktop applications using Tkinter with modular design',
-      'Applied GUI design principles to create user-friendly desktop interfaces',
-      'Collaborated on embedded software projects involving real-time sensor feedback',
-      'Gained hands-on experience across planning, development, testing, and deployment phases of the SDLC'
+      'Built Python desktop applications with Tkinter and contributed to embedded software projects involving real-time sensor integration.'
     ],
   },
 
