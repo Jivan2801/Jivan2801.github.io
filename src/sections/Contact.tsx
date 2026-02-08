@@ -108,8 +108,8 @@ const Contact = () => {
             <span className="text-gradient">Together</span>
           </h2>
           <p className="reveal opacity-0 text-lg text-[#4A4E69]/70 max-w-2xl mx-auto" style={{ animationDelay: '0.2s' }}>
-            Have a project in mind? I'd love to hear about it. Send me a message 
-            and let's create something amazing together.
+            Have a project in mind? Let's connect 
+            and create something amazing together.
           </p>
         </div>
 
