@@ -25,10 +25,11 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Blockchain Pharma Supply Chain',
-    description: 'A blockchain-powered pharmaceutical supply chain system using Solidity smart contracts for secure and transparent medicine logistics.',
-    image: '/project-3.jpg',
-    tags: ['Solidity', 'Blockchain', 'Smart Contracts', 'IPFS', 'Ganache'],
+    title: 'Time-Series Forecasting',
+    description:
+      'End-to-end pipeline ingesting two years of GitHub issue, PR, commit, branch, contributor, and release data via the GitHub API. Built and compared LSTM (TensorFlow/Keras), Prophet, and Holt–Winters forecasting engines with MAE/RMSE on a 30-day hold-out. Flask microservice and React dashboard with Docker on Google Cloud Run; CI/CD automates retrain and redeploy when new data arrive.',
+    image: '/project-3.png',
+    tags: ['Python', 'TensorFlow', 'Prophet', 'Flask', 'React', 'Docker', 'Google Cloud Run'],
     githubUrl: 'https://github.com',
     featured: true,
   },
