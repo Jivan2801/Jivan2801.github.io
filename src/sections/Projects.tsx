@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { ExternalLink, Github, ArrowUpRight } from 'lucide-react';
+import { Github } from 'lucide-react';
 
 const projects = [
   {
@@ -9,7 +9,7 @@ const projects = [
     title: 'Synthetic Monitoring Platform',
     description:
       'Production-style synthetic monitoring platform using a custom Python exporter, Prometheus, Grafana dashboards, and Alertmanager to track latency, packet loss, and availability.',
-    image: '/project-2.jpg',
+    image: '/project-1.png',
     tags: ['Python', 'Prometheus', 'Grafana', 'Alertmanager', 'Monitoring'],
     githubUrl: 'https://github.com/Jivan2801/Synthetic-Monitoring-Platform',
     featured: true,
@@ -20,7 +20,6 @@ const projects = [
     description: 'A full-stack AI learning platform using React and FastAPI with dynamic user interface and asynchronous backend APIs. Features an AI-powered chatbot using Google Gemini and RAG pipeline.',
     image: '/project-1.jpg',
     tags: ['React', 'FastAPI', 'MongoDB', 'ChromaDB', 'Google Gemini'],
-    liveUrl: 'https://example.com',
     githubUrl: 'https://github.com',
     featured: true,
   },
@@ -30,7 +29,6 @@ const projects = [
     description: 'A blockchain-powered pharmaceutical supply chain system using Solidity smart contracts for secure and transparent medicine logistics.',
     image: '/project-3.jpg',
     tags: ['Solidity', 'Blockchain', 'Smart Contracts', 'IPFS', 'Ganache'],
-    liveUrl: 'https://example.com',
     githubUrl: 'https://github.com',
     featured: true,
   },
@@ -112,14 +110,6 @@ const Projects = () => {
                     }`}
                   >
                     <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="p-3 rounded-full bg-white/90 hover:bg-white shadow-lg transition-colors"
-                    >
-                      <ExternalLink className="w-5 h-5 text-[#4A4E69]" />
-                    </a>
-                    <a
                       href={project.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -132,11 +122,10 @@ const Projects = () => {
 
                 {/* Content */}
                 <div className="p-6">
-                  <div className="flex items-start justify-between mb-3">
+                  <div className="mb-3">
                     <h3 className="text-xl font-semibold text-[#22223B] group-hover:text-[#4A4E69] transition-colors">
                       {project.title}
                     </h3>
-                    <ArrowUpRight className="w-5 h-5 text-[#9A8C98] group-hover:text-[#4A4E69] group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
                   </div>
                   
                   <p className="text-[#4A4E69]/70 text-sm mb-4 line-clamp-3">
