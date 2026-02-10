@@ -21,7 +21,7 @@ const projects = [
       'Graph-based music recommendation pipeline using the Million Song Dataset + Spotify + Last.fm (~9.7M interactions). Modeled users, songs, artists, and genres in a Neo4j property graph; ran PySpark ETL for profiling and node/edge tables. Used Neo4j GDS for song–song similarity and Spark GraphFrames for PageRank on the user–song bipartite graph. Hybrid Top-K recommendations combine similarity and popularity scores; compared Neo4j, GraphFrames, AWS Neptune, and Azure Cosmos DB for graph recommender workloads. CSP 554 Big Data Technologies, IIT.',
     image: '/project-2.png',
     tags: ['Neo4j', 'PySpark', 'Spark GraphFrames', 'Graph Data Science', 'Cypher', 'Recommendation'],
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/Jivan2801/GraphX-Powered-Music-Recommender-Using-Neo4j',
     featured: true,
   },
   {
