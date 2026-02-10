@@ -16,10 +16,11 @@ const projects = [
   },
   {
     id: 2,
-    title: 'AI Learning Platform',
-    description: 'A full-stack AI learning platform using React and FastAPI with dynamic user interface and asynchronous backend APIs. Features an AI-powered chatbot using Google Gemini and RAG pipeline.',
-    image: '/project-1.jpg',
-    tags: ['React', 'FastAPI', 'MongoDB', 'ChromaDB', 'Google Gemini'],
+    title: 'Graph-Based Song & Artist Recommendation',
+    description:
+      'Graph-based music recommendation pipeline using the Million Song Dataset + Spotify + Last.fm (~9.7M interactions). Modeled users, songs, artists, and genres in a Neo4j property graph; ran PySpark ETL for profiling and node/edge tables. Used Neo4j GDS for song–song similarity and Spark GraphFrames for PageRank on the user–song bipartite graph. Hybrid Top-K recommendations combine similarity and popularity scores; compared Neo4j, GraphFrames, AWS Neptune, and Azure Cosmos DB for graph recommender workloads. CSP 554 Big Data Technologies, IIT.',
+    image: '/project-2.png',
+    tags: ['Neo4j', 'PySpark', 'Spark GraphFrames', 'Graph Data Science', 'Cypher', 'Recommendation'],
     githubUrl: 'https://github.com',
     featured: true,
   },
@@ -85,16 +86,16 @@ const Projects = () => {
         </div>
 
         {/* Projects grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
           {projects.map((project, index) => (
             <div
               key={project.id}
-              className="reveal opacity-0 group relative"
+              className="reveal opacity-0 group relative h-full flex flex-col"
               style={{ animationDelay: `${0.2 + index * 0.1}s` }}
               onMouseEnter={() => setHoveredId(project.id)}
               onMouseLeave={() => setHoveredId(null)}
             >
-              <div className="relative overflow-hidden rounded-2xl glass hover:border-[#9A8C98]/50 transition-all duration-500">
+              <div className="relative overflow-hidden rounded-2xl glass hover:border-[#9A8C98]/50 transition-all duration-500 h-full flex flex-col">
                 {/* Image */}
                 <div className="relative aspect-video overflow-hidden">
                   <img
@@ -122,7 +123,7 @@ const Projects = () => {
                 </div>
 
                 {/* Content */}
-                <div className="p-6">
+                <div className="p-6 flex-1 flex flex-col">
                   <div className="mb-3">
                     <h3 className="text-xl font-semibold text-[#22223B] group-hover:text-[#4A4E69] transition-colors">
                       {project.title}
@@ -134,7 +135,7 @@ const Projects = () => {
                   </p>
 
                   {/* Tags */}
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap gap-2 mt-auto">
                     {project.tags.map((tag) => (
                       <Badge 
                         key={tag} 
