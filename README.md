@@ -39,8 +39,10 @@ Personal portfolio website featuring my professional experience, technical proje
 
 ### Prerequisites
 
-- Node.js 18+
-- npm or yarn
+```
+Node.js >= 18.0.0
+npm >= 9.0.0
+```
 
 ### Installation
 
