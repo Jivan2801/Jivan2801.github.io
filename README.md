@@ -1,73 +1,119 @@
-# React + TypeScript + Vite
+# Jivan Singh - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website showcasing my work as a Full-Stack Software Engineer. Built with React, TypeScript, and Tailwind CSS.
 
-Currently, two official plugins are available:
+**Live Site:** [jivansingh.vercel.app](https://jivansingh.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## React Compiler
+Personal portfolio website featuring my professional experience, technical projects, patents, publications, and skills. Currently pursuing my Master's in Computer Science at Illinois Institute of Technology, Chicago.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- **Responsive Design** - Optimized for all screen sizes
+- **Modern UI** - Clean, professional design with smooth animations
+- **Interactive Sections** - Dynamic content reveal on scroll
+- **Dark/Light Theme Support** - Automatic theme detection
+- **Performance Optimized** - Fast loading with Vite build system
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+| Category          | Technologies                       |
+| ----------------- | ---------------------------------- |
+| **Frontend**      | React 19, TypeScript, Tailwind CSS |
+| **Build Tool**    | Vite                               |
+| **UI Components** | shadcn/ui, Radix UI                |
+| **Icons**         | Lucide React                       |
+| **Styling**       | CSS Modules, Tailwind CSS          |
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Sections
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **Hero** - Introduction and social links
+- **About** - Bio and technical skills
+- **Experience** - Work history, education, and certifications
+- **Patents & Publications** - Research work and innovations
+- **Projects** - Featured technical projects
+- **Contact** - Connect and collaboration
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Jivan2801/Jivan2801.github.io.git
+
+# Navigate to project directory
+cd Jivan2801.github.io
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Build
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+# Create production build
+npm run build
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Preview production build
+npm run preview
 ```
+
+## Project Structure
+
+```
+├── src/
+│   ├── components/ui/    # Reusable UI components (shadcn/ui)
+│   ├── sections/         # Page sections
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Experience.tsx
+│   │   ├── PatentsPublications.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Navigation.tsx
+│   │   └── Footer.tsx
+│   ├── hooks/            # Custom React hooks
+│   ├── lib/              # Utility functions
+│   ├── App.tsx           # Main application
+│   └── main.tsx          # Entry point
+├── public/               # Static assets
+├── dist/                 # Production build output
+└── index.html            # HTML template
+```
+
+## Deployment
+
+This site is deployed on GitHub Pages. The `dist/` folder contains the production build.
+
+To deploy:
+
+```bash
+npm run build
+```
+
+Push changes to the `main` branch - GitHub Pages will serve from the repository root.
+
+## Contact
+
+- **Email:** jivanusingh@gmail.com
+- **LinkedIn:** [linkedin.com/in/jivansingh](https://www.linkedin.com/in/jivansingh)
+- **GitHub:** [github.com/Jivan2801](https://github.com/Jivan2801)
+- **Twitter:** [x.com/Jivan2801](https://x.com/Jivan2801)
+
+## License
+
+This project is open source and available for personal portfolio inspiration.
+
+---
+
+Built with React + TypeScript + Vite
