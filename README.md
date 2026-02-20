@@ -45,26 +45,18 @@ Personal portfolio website featuring my professional experience, technical proje
 ### Installation
 
 ```bash
-# Clone the repository
+
 git clone https://github.com/Jivan2801/Jivan2801.github.io.git
-
-# Navigate to project directory
 cd Jivan2801.github.io
-
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
 ```
 
 ### Build
 
 ```bash
-# Create production build
-npm run build
 
-# Preview production build
+npm run build
 npm run preview
 ```
 
