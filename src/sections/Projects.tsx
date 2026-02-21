@@ -10,7 +10,7 @@ const projects = [
     description:
       'Production-style synthetic monitoring platform using a custom Python exporter, Prometheus, Grafana dashboards, and Alertmanager to track latency, packet loss, and availability.',
     image: '/project-1.png',
-    tags: ['Python', 'Prometheus', 'Grafana', 'Alertmanager', 'Monitoring','YAML'],
+    tags: ['Python', 'Prometheus', 'Grafana', 'Alertmanager', 'Monitoring','YAML','PromQL'],
     githubUrl: 'https://github.com/Jivan2801/Synthetic-Monitoring-Platform',
     featured: true,
   },
