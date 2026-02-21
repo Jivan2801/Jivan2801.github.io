@@ -31,7 +31,7 @@ const projects = [
       'End-to-end pipeline ingesting two years of GitHub issue, PR, commit, branch, contributor, and release data via the GitHub API. Built and compared LSTM (TensorFlow/Keras), Prophet, and Holt–Winters forecasting engines with MAE/RMSE on a 30-day hold-out. Flask microservice and React dashboard with Docker on Google Cloud Run; CI/CD automates retrain and redeploy when new data arrive.',
     image: '/project-3.png',
     tags: ['Python', 'TensorFlow', 'Prophet', 'Flask', 'React', 'Docker', 'Google Cloud Run'],
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/Jivan2801/Time-Series-Forecasting',
     featured: true,
   },
 ];
