@@ -106,7 +106,7 @@ Push changes to the `main` branch - GitHub Pages will serve from the repository 
 
 ## License
 
-This project is open source and available for personal portfolio inspiration.
+MIT
 
 ---
 
