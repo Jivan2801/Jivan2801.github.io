@@ -3,6 +3,17 @@ import { Briefcase, GraduationCap, Award } from 'lucide-react';
 
 const experiences = [
   {
+  type: 'work',
+  title: 'Backend Developer',
+  company: 'Community Dreams Foundation - Elpsan Bio',
+  location: 'Remote',
+  period: 'August 2026 - Present',
+  description: 'Python | Node.js | PostgreSQL | REST APIs | NLP | GCP',
+  achievements: [
+    'Built backend services and data workflows for Elpsan Bio, an AI-driven biotech startup focused on therapeutic discovery, phenotype mapping, and drug repurposing.'
+  ],
+},
+  {
     type: 'work',
     title: 'Full Stack Development Intern',
     company: 'PARI Technologies (M) SDN BHD',
